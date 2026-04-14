@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: <your-dockerhub>/backend:latest
+          image: 586337033275.dkr.ecr.ap-south-1.amazonaws.com/smartreview-dev/backend:latest
           ports:
             - containerPort: 5000
